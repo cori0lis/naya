@@ -7,15 +7,12 @@
 </head>
 
 <body>
-    <form method="POST"
-        action="https://script.google.com/macros/s/AKfycbwN7N4wSY5M1drrtZsDKGOOfyTpv3U5PAvW78ENTxkdQCQ1lF_G6sFtF6374J3AnWhV/exec">
-        <input name="Email" type="email" placeholder="Email" required>
-        <input name="Name" type="text" placeholder="Name" required>
-        <button type="submit">Send</button>
+    <form action="https://api.sheetmonkey.io/form/rVj73nvHNQnVkv9ZhpGGYi" method="post">
+        <label>Your Email: <input type="email" name="Email" required /></label>
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+        <input type="submit" value="Sign Up" />
     </form>
 
-    <!-- Load the JavaScript code for the newsletter signup form with Google Sheets API integration -->
-    <script src="assets/js/newsletter.js"></script>
 </body>
 
 </html>
